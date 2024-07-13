@@ -101,6 +101,7 @@
 /* Why-web section style start */
 .why-web-section{
     max-width: 1280px;
+    border: 1px solid white;
 }
 
 .why-web-container{
@@ -218,6 +219,7 @@
 /* Inspiration section style starts */
 .inspiration-section{
     max-width: 1280px;
+    border: 1px solid white;
 }
 
 .inspiration-container{
@@ -264,6 +266,7 @@
 /* Target section style starts */
 .target-section{
     max-width: 1280px;
+    border: 1px solid white;
 }
 
 .target-section-title{
@@ -335,7 +338,15 @@
 /* Support section style starts */
 .support-section{
     max-width: 1280px;
+    border: 1px solid white;
+}
+
+.support-area{
+    width: 1003.2px;
+    height: 275.44;
     padding: 56.32px 42.24px;
+    margin: 0 auto;
+    margin-bottom: 70.4px;
     border-radius: 14.08px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../assets/handshake.jpg);
     background-repeat: no-repeat;
@@ -397,14 +408,19 @@
 }
 /* Support section style ends */
 
+/* Footer section style starts */
 .footer-section{
     max-width: 1280px;
-    padding: 32px 150px;
+    height: 88px;
+    border: 1px solid rgba(13, 19, 33, 0.03);
+    border-radius: 14.08px;
+    background: rgba(13, 19, 33, 0.03);
 }
 
 .footer-content{
     width: 1003.2px;
     height: 31.68px;
+    margin: 28.16px auto;
 }
 
 nav{
@@ -431,3 +447,4 @@ nav ul{
 nav ul li{
     list-style: none;
 }
+/* Footer section style ends */
