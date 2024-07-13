@@ -358,13 +358,15 @@
 }
 
 .support-sub-title{
+    width: 533.28px;
+    height: 45.76px;
     color: white;
     opacity: 0.7;
     font-size: 14.08px;
     font-weight: 400;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 21.12px;
+    margin: 0 auto 21.12px;
 }
 
 .support-submit{
@@ -374,7 +376,7 @@
 .support-submit input{
     width: 482.24px;
     height: 50.16px;
-    padding: 20px;
+    padding: 19px 20px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 7.04px;
@@ -394,3 +396,38 @@
     text-align: center;
 }
 /* Support section style ends */
+
+.footer-section{
+    max-width: 1280px;
+    padding: 32px 150px;
+}
+
+.footer-content{
+    width: 1003.2px;
+    height: 31.68px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav p{
+    font-size: 17.6px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 21.12px;
+}
+
+nav ul li{
+    list-style: none;
+}
