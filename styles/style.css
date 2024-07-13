@@ -18,6 +18,18 @@
     color: rgba(13, 13, 33, 70%);
 }
 
+.background-light-orange{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.background-light-blue{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.background-light-yellow{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
 /* Banner style starts */
 .banner-container{
     max-width: 1280px;
@@ -60,11 +72,13 @@
 }
 
 .banner-sub-title{
+    width: 749.76px;
+    height: 45.76;
     font-weight: 400;
     font-size: 14.08px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 28.16px;
+    margin: 0 auto 28.16px auto;
 }
 
 .banner-button{
@@ -113,11 +127,13 @@
 }
 
 .why-web-sub-title{
+    width: 749.76px;
+    height: 45.76;
     font-size: 14.08px;
     font-weight: 400;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 42.24px;
+    margin: 0 auto 42.24px auto;
 }
 
 /* I-will content style starts */
@@ -177,7 +193,7 @@
     text-align: left;
     color: rgb(13, 19, 33);
     opacity: 0.7;
-    margin-bottom: 28.16px;
+    margin: 0 auto 28.16px auto;
 }
 
 .i-will-button{
@@ -220,11 +236,13 @@
 }
 
 .inspiration-sub-title{
+    width: 749.76px;
+    height: 45.76;
     font-size: 14.08px;
     font-weight: 400;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 42.24px;
+    margin: 0 auto 42.24px auto;
 }
 
 .inspiration-video-container{
@@ -242,3 +260,74 @@
     border-radius: 14.08px;
 }
 /* Inspiration section style ends */
+
+/* Target section style starts */
+.target-section{
+    max-width: 1280px;
+}
+
+.target-section-title{
+    font-size: 28.16px;
+    font-weight: 800;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 21.12px;
+}
+
+.target-section-sub-title{
+    width: 749.76px;
+    height: 45.76;
+    font-size: 14.08px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 auto 42.24px auto;
+}
+
+.target-container{
+    width: 1003.2px;
+    height: 263.12px;
+    margin: 0 auto 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 21.12px;
+}
+
+.targets{
+    width: 320.32px;
+    padding: 36px;
+    border-radius: 14.08px;
+}
+
+.targets img{
+    width: 49.28px;
+    height: 49.28px;
+    margin-bottom: 21.12px;
+}
+
+.target-title{
+    font-size: 21.12px;
+    font-weight: 800;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 7.04px;
+}
+
+.target-sub-title{
+    font-size: 14.08px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 21.12px;
+}
+
+.targets a{
+    font-size: 14.08px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #0D1321;
+}
+/* Target section styles ends */
