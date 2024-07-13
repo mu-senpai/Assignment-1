@@ -287,7 +287,7 @@
 .target-container{
     width: 1003.2px;
     height: 263.12px;
-    margin: 0 auto 44px;
+    margin: 0 auto 88px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -330,4 +330,67 @@
     text-align: left;
     color: #0D1321;
 }
-/* Target section styles ends */
+/* Target section style ends */
+
+/* Support section style starts */
+.support-section{
+    max-width: 1280px;
+    padding: 56.32px 42.24px;
+    border-radius: 14.08px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.support-content{
+    width: 918.72;
+    height: 162.8;
+}
+
+.support-title{
+    font-size: 28.16px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    margin-bottom: 14.08px;
+}
+
+.support-sub-title{
+    color: white;
+    opacity: 0.7;
+    font-size: 14.08px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 21.12px;
+}
+
+.support-submit{
+    text-align: center;
+}
+
+.support-submit input{
+    width: 482.24px;
+    height: 50.16px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 7.04px;
+    background: rgb(255, 255, 255);
+}
+
+.support-submit button{
+    width: 105.6px;
+    height: 50.16px;
+    border: none;
+    border-radius: 7.04px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 17.6px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* Support section style ends */
