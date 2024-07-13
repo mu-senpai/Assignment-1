@@ -85,7 +85,6 @@
 /* Banner style ends */
 
 /* Why-web section style start */
-
 .why-web-section{
     max-width: 1280px;
 }
@@ -161,7 +160,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .i-will-title{
@@ -200,3 +198,47 @@
 }
 /* I-will content style ends */
 /* Why-web section style ends */
+
+/* Inspiration section style starts */
+.inspiration-section{
+    max-width: 1280px;
+}
+
+.inspiration-container{
+    width: 1003.2px;
+    height: 682px;
+    margin: 0 132px 161.04px;
+    border: 1px solid white;
+}
+
+.inspiration-title{
+    font-size: 28.16px;
+    font-weight: 800;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 21.12px;
+}
+
+.inspiration-sub-title{
+    font-size: 14.08px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 42.24px;
+}
+
+.inspiration-video-container{
+    width: 1003.2px;
+    height: 540.32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 14.08px;
+    padding: 32px;
+}
+
+.inspiration-video-container iframe{
+    width: 946.88px;
+    height: 484px;
+    border-radius: 14.08px;
+}
+/* Inspiration section style ends */
