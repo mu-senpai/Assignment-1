@@ -85,6 +85,11 @@
 /* Banner style ends */
 
 /* Why-web section style start */
+
+.why-web-section{
+    max-width: 1280px;
+}
+
 .why-web-container{
     width: 1003.2px;
     height: 1227.6px;
